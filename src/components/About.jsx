@@ -21,7 +21,7 @@ const About = () => {
           </div>
 
           <div className={`duration-1000 ${myElementIsVisible2?" translate-x-0 opacity-100 ":"translate-x-14 opacity-0"}`} ref={myRef2}>
-            <div className={`bg-[url('https://i.pinimg.com/originals/85/ec/df/85ecdf1c3611ecc9b7fa85282d9526e0.jpg')] rounded-md p-2 sm:p-4 lg:h-96 xl:h-88 2xl:h-88 text-[13px] md:text-base`}>
+            <div className={`bg-[url('https://i.pinimg.com/originals/85/ec/df/85ecdf1c3611ecc9b7fa85282d9526e0.jpg')] rounded-md p-2 sm:p-4 lg:h-96 xl:h-88 2xl:h-88 text-[12.7px] md:text-base`}>
               <div className='flex justify-end'>
                 <p className='flex px-2 py-1 my-2 font-medium text-white rounded-md bg-emerald-900'>Tell me About Yourself 
                   <div className='flex items-end'>
@@ -30,7 +30,7 @@ const About = () => {
                   </div>
                 </p>
               </div>
-              <div className='flex justify-between bg-[#1c242c] rounded-md text-white px-1.5 py-1 my-1 font-medium text-[13px] sm:text-base'>
+              <div className='flex justify-between bg-[#1c242c] rounded-md text-white px-1.5 py-1 my-1 font-medium text-[12.7px] sm:text-base'>
                 <Typed
                       className='text-white '
                       strings={[
