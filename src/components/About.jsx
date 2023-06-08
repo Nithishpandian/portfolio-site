@@ -12,7 +12,7 @@ const About = () => {
     threshold:0.1,
   });
   return (
-    <div id='About' className='px-32 mt-10 md:mt-6 md:px-44 lg:px-16 xl:px-36 2xl:px-48 md:pt-16'>
+    <div id='About' className='px-10 sm:px-32 mt-10 md:mt-6 md:px-44 lg:px-16 xl:px-36 2xl:px-48 md:pt-16'>
         <h1 className='flex items-center justify-center pt-6 pb-1 text-5xl font-bold heading-about text-stone-800 md:pb-3 xl:pb-8'>About <span><ion-icon name="leaf-sharp"></ion-icon></span> </h1>
         <div className='grid items-center justify-center grid-rows-about-sm md:grid-rows-about-md lg:grid-rows-none lg:grid-cols-about xl:grid-cols-about gap-x-4 gap-y-3'>
           
