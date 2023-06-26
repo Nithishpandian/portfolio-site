@@ -12,7 +12,7 @@ const ProjectCard = ({title, img, liveDemo, githubCode}) => {
                 <hr />
             </div>
             <div className='flex flex-col items-center justify-center my-3 gap-y-2'>
-                <a href={`${liveDemo}`} target='_blank' rel="noreferrer">
+                <a href="#" rel="noreferrer">
                     <button className='group/button overflow-hidden relative font-sourceCodePro font-semibold bg-[#363738] border border-[#ffffff] py-1.5 px-3 rounded-lg text-[#ffffff]' id='#Contact'>
                         <div className="duration-300 group-hover/button:-translate-y-8 ">Live Demo</div>
                         <div className="absolute invisible duration-300  group-hover/button:-translate-y-6 group-hover/button:visible">Live Demo</div>
