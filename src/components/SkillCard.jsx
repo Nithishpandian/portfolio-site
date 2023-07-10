@@ -1,6 +1,6 @@
 
 
-function SkillCard({domain,image1, language1,margin1,image2, language2,image3, language3,percentageHtml, percentageCss, percentageJs,percentageNode,percentageExpress,percentageMongoDB,percentageReactjs, percentageTailwind,percentageGraphql,percentageNpm,percentageGithub,percentageWebSecurity, padding }) {
+function SkillCard({domain,image1, language1,margin1,image2, language2,image3, language3,percentageHtml, percentageCss, percentageJs,percentageNode,percentageExpress,percentageMongoDB,percentageReactjs, percentageTailwind,percentageRest,percentageNpm,percentageGithub,percentageWebSecurity, padding }) {
   
   return (  
     <div className={`flex justify-center `}>
@@ -30,7 +30,7 @@ function SkillCard({domain,image1, language1,margin1,image2, language2,image3, l
             <div>
               <p>{language3}</p>
               <div className=' bg-[#c0c0c0] rounded-xl'>
-                <div className={` rounded-xl bg-black h-1.5 ${percentageJs} ${percentageMongoDB} ${percentageGraphql} ${percentageWebSecurity}`}></div>
+                <div className={` rounded-xl bg-black h-1.5 ${percentageJs} ${percentageMongoDB} ${percentageRest} ${percentageWebSecurity}`}></div>
               </div>
             </div>
           </div>

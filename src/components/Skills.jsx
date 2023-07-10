@@ -6,7 +6,7 @@ import expressjs from "./assets/logos/expressjs_logo.png"
 import mongodb from "./assets/logos/mongodb_logo.png"
 import reactjs from "./assets/logos/reactjs_logo.png"
 import tailwindcss from "./assets/logos/tailwindcss_logo.webp"
-import graphql from "./assets/logos/graphql_logo.png"
+import restApi from "./assets/logos/rest_api.png"
 import npm from "./assets/logos/npm_logo.png"
 import github from "./assets/logos/github_logo.png"
 import webSecurity from "./assets/logos/websecurity_logo.png"
@@ -78,9 +78,9 @@ const Skills = () => {
                   image2={tailwindcss} 
                   language2={'TailwindCSS'} 
                   percentageTailwind={'w-[95%]'}
-                  image3={graphql} 
+                  image3={restApi} 
                   language3={'REST api'} 
-                  percentageGraphql={'w-[87%]'}
+                  percentageRest={'w-[87%]'}
                 />
               </div>
               
