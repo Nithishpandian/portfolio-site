@@ -79,7 +79,7 @@ const Skills = () => {
                   language2={'TailwindCSS'} 
                   percentageTailwind={'w-[95%]'}
                   image3={graphql} 
-                  language3={'Graphql'} 
+                  language3={'REST api'} 
                   percentageGraphql={'w-[87%]'}
                 />
               </div>
