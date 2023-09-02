@@ -1,9 +1,9 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import diseasePrediction from "./assets/projects/disease_predictor.png"
-import landingPage from "./assets/projects/landing_page.png"
-import todo from "./assets/projects/todo_app.png"
-import blog from "./assets/projects/Blog_website.png"
+import diseasePrediction from "../assets/projects/disease_predictor.png"
+import landingPage from "../assets/projects/landing_page.png"
+import todo from "../assets/projects/todo_app.png"
+import blog from "../assets/projects/Blog_website.png"
 
 import { useInView } from 'react-intersection-observer';
 
