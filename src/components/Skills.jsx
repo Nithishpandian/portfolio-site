@@ -1,15 +1,15 @@
-import htmlLogo from "../assets/logos/html_logo.png"
-import cssLogo from "../assets/logos/css_logo.png"
-import jsLogo from '../assets/logos/js_logo.png'
-import nodejs from "../assets/logos/nodejs_logo.jpg"
-import expressjs from "../assets/logos/expressjs_logo.png"
-import mongodb from "../assets/logos/mongodb_logo.png"
-import reactjs from "../assets/logos/reactjs_logo.png"
-import tailwindcss from "../assets/logos/tailwindcss_logo.webp"
-import restApi from "../assets/logos/rest_api.png"
-import npm from "../assets/logos/npm_logo.png"
-import github from "../assets/logos/github_logo.png"
-import webSecurity from "../assets/logos/websecurity_logo.png"
+import htmlLogo from "./assets/logos/html_logo.png"
+import cssLogo from "./assets/logos/css_logo.png"
+import jsLogo from './assets/logos/js_logo.png'
+import nodejs from "./assets/logos/nodejs_logo.jpg"
+import expressjs from "./assets/logos/expressjs_logo.png"
+import mongodb from "./assets/logos/mongodb_logo.png"
+import reactjs from "./assets/logos/reactjs_logo.png"
+import tailwindcss from "./assets/logos/tailwindcss_logo.webp"
+import restApi from "./assets/logos/rest_api.png"
+import npm from "./assets/logos/npm_logo.png"
+import github from "./assets/logos/github_logo.png"
+import webSecurity from "./assets/logos/websecurity_logo.png"
 import SkillCard from './SkillCard'
 
 import { useInView } from 'react-intersection-observer';

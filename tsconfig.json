@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    // Other options...
-    "allowJs": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
-  }
-}
