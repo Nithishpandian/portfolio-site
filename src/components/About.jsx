@@ -1,7 +1,6 @@
 import React from 'react'
 import Typed from "react-typed"
-import Nithish from "./assets/myPhoto_landscape.jpeg"
-
+import Nithish from "../assets/myPhoto_landscape.jpeg"
 import { useInView } from 'react-intersection-observer';
 
 const About = () => {
