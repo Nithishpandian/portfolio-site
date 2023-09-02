@@ -1,7 +1,7 @@
 import React from 'react'
 import Typed from "react-typed"
-import Nithish from "../assets/Nithish.jpg"
-import whiteImg from "../assets/whiteImg.jpg"
+import Nithish from "./assets/Nithish.jpg"
+import whiteImg from "./assets/whiteImg.jpg"
 
 import { useInView } from 'react-intersection-observer';
 
@@ -61,7 +61,7 @@ const HomeSection = () => {
             </h3>
             <div className='mt-5 ml-1 text-center md:text-left '>
                 <a href="#Contact">
-                    <button className='group overflow-hidden relative font-sourceCodePro text-lg bg-[#c7763db4] py-1 px-3 rounded text-[#ffffff]' id='#Contact'>
+                    <button className='group overflow-hidden relative font-sourceCodePro font-semibold bg-[#df8a4eb4] py-1.5 px-3 rounded text-[#ffffff]' id='#Contact'>
                         <div className="duration-300 group-hover:-translate-y-8 ">CONTACT</div>
                         <div className="absolute invisible duration-300  group-hover:-translate-y-6 group-hover:visible">CONTACT</div>
                     </button>

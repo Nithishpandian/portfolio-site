@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Nithish from "../assets/logo.png"
+import Nithish from "./assets/logo.png"
 
 const Header = () => {
   const [open, setOpen] = useState(false)
@@ -9,7 +9,7 @@ const Header = () => {
 
         <div className='flex justify-between z-0 bg-[#fcfcfc] px-5 py-2 md:px-0 md:py-0'>
           
-          <img className='w-16 md:ml-10 md:mt-2 md:w-1/5' src={Nithish} alt="" />
+          <img className='w-16 md:ml-10 md:mt-4 md:w-1/4' src={Nithish} alt="" />
 
           <div onClick={()=>setOpen(!open)} className={` z-20 cursor-pointer md:hidden text-3xl flex justify-center align-middle mt-2 ${open?' text-[#e4965fc0] duration-500':' text-black duration-500'}`}>
             <ion-icon name={open?"close":"menu"}></ion-icon>
